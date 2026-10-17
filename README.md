@@ -36,34 +36,43 @@ cd auditor-seo
 ```
 
 Crie um ambiente virtual:
+```
 python3 -m venv .venv
-
+```
 
 Ative o ambiente virtual no Linux:
+```
 source .venv/bin/activate
-
+```
 
 Instale as dependências:
+```
 pip install -r requirements.txt
-
+```
 
 Configuração da API
 Configure a variável de ambiente com sua chave do Gemini:
+```
 export GEMINI_API_KEY="SUA_CHAVE_AQUI"
-
+```
 
 Substitua SUA_CHAVE_AQUI pela sua chave real.
 Não publique essa chave no GitHub.
 A variável exportada dessa maneira permanece disponível somente
 na sessão atual do terminal.
-Executar a aplicação
-Com o ambiente virtual ativado e a variável configurada, execute:
-python app.py
 
+## Executar a aplicação
+Com o ambiente virtual ativado e a variável configurada, execute:
+```
+python app.py
+```
 
 Abra no navegador:
+```
 http://127.0.0.1:5000
-Estrutura do projeto
+```
+Estrutura do projeto:
+```
 auditor-seo/
 ├── app.py
 ├── auditor_seo.py
@@ -77,17 +86,20 @@ auditor-seo/
 ├── .env.example
 ├── .gitignore
 └── README.md
+```
 
-
-Documentação
+## Documentação
 Consulte documentacao_tecnica_do_projeto.md para obter mais
 detalhes sobre a implementação.
-Situação do projeto
+
+## Situação do projeto
 Projeto em desenvolvimento, criado para praticar Python,
 desenvolvimento web e integração com inteligência artificial.
-Segurança
+
+## Segurança
 Nunca publique chaves de API, senhas ou outros dados secretos.
 O arquivo .gitignore exclui arquivos locais de configuração
 que podem conter credenciais.
-Licença
+
+## Licença
 A licença ainda não foi definida.
